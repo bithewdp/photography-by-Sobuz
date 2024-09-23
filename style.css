@@ -1,0 +1,267 @@
+.bg_img{
+    background:url(./bg2.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: bottom;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    
+
+}
+a{
+    text-decoration: none;
+
+    font-size: 30px;
+
+}
+.ul_m{
+
+    list-style: none;
+    margin: 2px;
+    font-style:initial;
+    display: flex;
+    font-size: 30px;
+    position:sticky;
+    top: 0;
+    gap: 20px;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(222, 184, 135, 0.89);
+   
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 45px;
+    color:white;
+
+
+}
+.web_name{
+    border-style: dashed;
+    font-size: 80px;
+    color: white;
+    font-style:italic;
+}
+
+.photograpy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 45px;
+    font-weight: 200;
+    padding:5px;
+    text-shadow:20px ;
+    background-color:rgba(0, 0, 0, 0.981);
+    border-color: white;
+    border-style: dashed;
+}
+
+.top-ber{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    height:50px;
+    align-items: center;
+    background-color: rgba(210, 201, 30, 0.96);
+}
+
+    .My_work_area{
+   text-align: center;
+   background-image: url(./images.jpeg);
+    }      
+    .My_work_area h3{
+       color: brown;
+       font-size: 50px;
+       font-weight: bold;
+       
+       
+    } 
+   
+    .My_work_area h1{
+       color: blue;
+       font-size:30px;
+       font-weight: bold;
+    } 
+    .photo_my{
+        align-items: center;
+        background: brown;
+        width: 300px;
+        height: 2px;
+        margin-top: 1px;
+
+    }
+    .project_img_nature{
+       height: 250px;
+       width: 250px;
+       display: flex;
+       gap: 40px;
+    }
+    .project_img_photofrapy{
+        height: 250px;
+    width: 250px;
+    display: flex;
+    gap: 40px;
+    }
+    .project_img img{
+       width: 100%;
+       
+      
+    }
+.project_img_hobby{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    gap: 40px;
+}
+
+    .project_img img:hover{
+      display: block;
+    }
+    .footer{
+        display: flex;
+        background-color: rgba(43, 100, 0, 0.847);
+        gap: 15px;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    
+    .First_area h3{
+        font-size: 30px;
+        color:purple;
+        font-weight:bold;
+        margin-top: 20px;
+    
+    }
+    .First_area p{
+        font-size: 20px;
+        color: white;
+        margin-top: 10px;
+    }
+    .read_more a{
+        display: flex;
+    
+    }
+    
+    .read_more h6{
+        font-size: 18px;
+        color: brown;
+        margin-top: 10px;
+    }
+    .read_more i{
+        color: brown;
+        font-size: 15px;
+        margin: 15px;
+    }
+    .read_more a{
+    text-decoration: none;
+    
+    }
+    
+    .read_more a h6:hover{
+        color: gray;
+    }
+    .second_part h3{
+        font-size: 30px;
+        color: purple;
+        font-weight:bold;
+        margin-top: 20px;
+    
+    } 
+    
+    .second_part_first_image{
+    
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .second_part_first_image img{
+        height: 60px;
+        width: 60px;
+    }
+    .second_part_first_image p{
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+    }
+    .second_part_first_image span{
+     color: white
+    }
+    .thirt_part_of_footeer h1{
+        font-size: 30px;
+        color: purple;
+        font-weight:bold;
+        margin-top: 20px;
+     
+    }
+    .thirt_part_of_footeer_icone{
+        
+        color: white;
+        margin-top: 10px;
+        margin: 20px;
+        
+    }
+    .fa-map-marker{
+        color: brown;
+    }
+    .fa-phone{
+    color: brown;
+    }
+    .fa-envelope{
+    color: brown;
+    }
+    .thirt_part_of_footeer_icone{
+        display: flex;
+        gap: 10px;
+    }
+    
+    
+    .thirt_part_of_footeer_icone_3 span{
+        color: white;
+         gap: 10px;
+       
+    }
+    .thirt_part_of_footeer_icone_3{
+        margin-top: 10px;
+        margin:20px;
+    }
+    .footeer_icone_text{
+    display: flex;
+    gap: 20px;
+    }
+    
+    
+    .last_part_of_this_webside{
+        background: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+    }
+    .fa-heart{
+        color: goldenrod;
+        
+    }
+    
